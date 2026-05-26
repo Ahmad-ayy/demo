@@ -8,7 +8,7 @@ import java.util.Date;
 @Entity
 public class Officer {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @Column(length = 1000)
     private String firstName;

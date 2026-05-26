@@ -10,8 +10,8 @@ import java.util.Optional;
 @Service
 public class OfficerService {
 
-    private final OfficerRepo officerRepo;
     @Autowired
+    private final OfficerRepo officerRepo;
     public OfficerService(OfficerRepo officerRepo) {
         this.officerRepo = officerRepo;
     }
